@@ -1,0 +1,769 @@
+{
+    "sources": [
+        {
+            "DOI": "10.1371/journal.pone.0223749",
+            "URL": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0223749",
+            "author": [
+                {
+                    "family": "Grubbs",
+                    "given": "Joshua B."
+                },
+                {
+                    "family": "Warmke",
+                    "given": "Brandon"
+                },
+                {
+                    "family": "Tosi",
+                    "given": "Justin"
+                },
+                {
+                    "family": "James",
+                    "given": "A. Shanti"
+                },
+                {
+                    "family": "Campbell",
+                    "given": "W. Keith"
+                }
+            ],
+            "container-title": "PLOS ONE",
+            "id": "grubbs2019",
+            "issue": "10",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        10,
+                        16
+                    ]
+                ]
+            },
+            "language": "en",
+            "note": "Publisher: Public Library of Science",
+            "page": "e0223749",
+            "title": "Moral grandstanding in public discourse: Status-seeking motives as a potential explanatory mechanism in predicting conflict",
+            "title-short": "Moral grandstanding in public discourse",
+            "type": "article-journal",
+            "volume": "14"
+        },
+        {
+            "DOI": "10.18637/jss.v042.i13",
+            "URL": "https://doi.org/10.18637/jss.v042.i13",
+            "author": [
+                {
+                    "family": "Abadie",
+                    "given": "Alberto"
+                },
+                {
+                    "family": "Diamond",
+                    "given": "Alexis"
+                },
+                {
+                    "family": "Hainmueller",
+                    "given": "Jens"
+                }
+            ],
+            "container-title": "Journal of Statistical Software",
+            "id": "abadie2011",
+            "issued": {
+                "date-parts": [
+                    [
+                        2011,
+                        6,
+                        14
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "1-17",
+            "title": "Synth: An R Package for Synthetic Control Methods in Comparative Case Studies",
+            "title-short": "Synth",
+            "type": "article-journal",
+            "volume": "42"
+        },
+        {
+            "DOI": "10.1177/0956797612439718",
+            "author": [
+                {
+                    "family": "Adams",
+                    "given": "Gabrielle S."
+                },
+                {
+                    "family": "Flynn",
+                    "given": "Francis J."
+                },
+                {
+                    "family": "Norton",
+                    "given": "Michael I."
+                }
+            ],
+            "container-title": "Psychological Science",
+            "id": "adams2012",
+            "issue": "10",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012,
+                        10,
+                        1
+                    ]
+                ]
+            },
+            "language": "eng",
+            "note": "PMID: 22915082",
+            "page": "1145-1150",
+            "title": "The gifts we keep on giving: documenting and destigmatizing the regifting taboo",
+            "title-short": "The gifts we keep on giving",
+            "type": "article-journal",
+            "volume": "23"
+        },
+        {
+            "DOI": "10.1002/jcpy.1270",
+            "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jcpy.1270",
+            "author": [
+                {
+                    "family": "Allard",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "McFerran",
+                    "given": "Brent"
+                }
+            ],
+            "container-title": "Journal of Consumer Psychology",
+            "id": "allard",
+            "issue": "n/a",
+            "language": "en",
+            "note": "_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/jcpy.1270",
+            "title": "Ethical Branding in A Divided World: How Political Orientation Motivates Reactions to Marketplace Transgressions",
+            "title-short": "Ethical Branding in A Divided World",
+            "type": "article-journal",
+            "volume": "n/a"
+        },
+        {
+            "DOI": "10.1093/jcr/ucv024",
+            "URL": "https://doi.org/10.1093/jcr/ucv024",
+            "author": [
+                {
+                    "family": "Allard",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "White",
+                    "given": "Katherine"
+                }
+            ],
+            "container-title": "Journal of Consumer Research",
+            "id": "allard2015",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015,
+                        10,
+                        1
+                    ]
+                ]
+            },
+            "page": "401-419",
+            "title": "Cross-domain effects of guilt on desire for self-improvement products",
+            "type": "article-journal",
+            "volume": "42"
+        },
+        {
+            "author": [
+                {
+                    "family": "Altman",
+                    "given": "D. G."
+                },
+                {
+                    "family": "Goodman",
+                    "given": "S. N."
+                }
+            ],
+            "container-title": "JAMA",
+            "id": "altman1994",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        1994,
+                        7,
+                        13
+                    ]
+                ]
+            },
+            "language": "eng",
+            "note": "PMID: 8015123",
+            "page": "129-132",
+            "title": "Transfer of technology from statistical journals to the biomedical literature. Past trends and future predictions",
+            "type": "article-journal",
+            "volume": "272"
+        },
+        {
+            "DOI": "10.1086/674137",
+            "URL": "https://doi.org/10.1086/674137",
+            "author": [
+                {
+                    "family": "Kristofferson",
+                    "given": "Kirk"
+                },
+                {
+                    "family": "White",
+                    "given": "Katherine"
+                },
+                {
+                    "family": "Peloza",
+                    "given": "John"
+                }
+            ],
+            "container-title": "Journal of Consumer Research",
+            "id": "kristofferson2014",
+            "issue": "6",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014,
+                        4,
+                        1
+                    ]
+                ]
+            },
+            "page": "1149-1166",
+            "title": "The nature of slacktivism: How the social observability of an initial act of token support affects subsequent prosocial action",
+            "title-short": "The nature of slacktivism",
+            "type": "article-journal",
+            "volume": "40"
+        },
+        {
+            "DOI": "10.1037/0022-3514.61.3.413",
+            "author": [
+                {
+                    "family": "Batson",
+                    "given": "C. Daniel"
+                },
+                {
+                    "family": "Batson",
+                    "given": "Judy G."
+                },
+                {
+                    "family": "Slingsby",
+                    "given": "Jacqueline K."
+                },
+                {
+                    "family": "Harrell",
+                    "given": "Kevin L."
+                },
+                {
+                    "family": "Peekna",
+                    "given": "Heli M."
+                },
+                {
+                    "family": "Todd",
+                    "given": "R. Matthew"
+                }
+            ],
+            "container-title": "Journal of Personality and Social Psychology",
+            "id": "batson1991",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        1991
+                    ]
+                ]
+            },
+            "note": "Place: US Publisher: American Psychological Association",
+            "page": "413-426",
+            "title": "Empathic joy and the empathy-altruism hypothesis",
+            "type": "article-journal",
+            "volume": "61"
+        },
+        {
+            "DOI": "10.1037/0022-3514.52.4.749",
+            "author": [
+                {
+                    "family": "Cialdini",
+                    "given": "Robert B."
+                },
+                {
+                    "family": "Schaller",
+                    "given": "Mark"
+                },
+                {
+                    "family": "Houlihan",
+                    "given": "Donald"
+                },
+                {
+                    "family": "Arps",
+                    "given": "Kevin"
+                },
+                {
+                    "family": "Fultz",
+                    "given": "Jim"
+                },
+                {
+                    "family": "Beaman",
+                    "given": "Arthur L."
+                }
+            ],
+            "container-title": "Journal of Personality and Social Psychology",
+            "id": "cialdini1987",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        1987
+                    ]
+                ]
+            },
+            "note": "Place: US Publisher: American Psychological Association",
+            "page": "749-758",
+            "title": "Empathy-based helping: Is it selflessly or selfishly motivated?",
+            "title-short": "Empathy-based helping",
+            "type": "article-journal",
+            "volume": "52"
+        },
+        {
+            "DOI": "10.1007/s10551-018-3850-1",
+            "URL": "https://dro.deakin.edu.au/view/DU:30107606?_ga=2.111089477.1952911635.1646751433-39336682.1646751433",
+            "author": [
+                {
+                    "family": "Grégoire",
+                    "given": "Yany"
+                },
+                {
+                    "family": "Legoux",
+                    "given": "Renaud"
+                },
+                {
+                    "family": "Tripp",
+                    "given": "Thomas M."
+                },
+                {
+                    "family": "Radanielina-Hita",
+                    "given": "Marie-Louise"
+                },
+                {
+                    "family": "Joireman",
+                    "given": "Jeffrey"
+                },
+                {
+                    "family": "Rotman",
+                    "given": "Jeffrey D."
+                }
+            ],
+            "container-title": "Journal of business ethics",
+            "id": "grégoire2019",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "language": "eng",
+            "note": "Publisher: Springer",
+            "page": "167-188",
+            "title": "What do online complainers want? An examination of the justice motivations and the moral implications of vigilante and reparation schemas",
+            "type": "article-journal",
+            "volume": "160"
+        },
+        {
+            "DOI": "10.1509/jm.15.0006",
+            "URL": "https://doi.org/10.1509/jm.15.0006",
+            "author": [
+                {
+                    "family": "Kähr",
+                    "given": "Andrea"
+                },
+                {
+                    "family": "Nyffenegger",
+                    "given": "Bettina"
+                },
+                {
+                    "family": "Krohmer",
+                    "given": "Harley"
+                },
+                {
+                    "family": "Hoyer",
+                    "given": "Wayne D."
+                }
+            ],
+            "container-title": "Journal of Marketing",
+            "id": "kähr2016",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        5,
+                        1
+                    ]
+                ]
+            },
+            "language": "en",
+            "note": "Publisher: SAGE Publications Inc",
+            "page": "25-41",
+            "title": "When Hostile Consumers Wreak Havoc on Your Brand: The Phenomenon of Consumer Brand Sabotage",
+            "title-short": "When Hostile Consumers Wreak Havoc on Your Brand",
+            "type": "article-journal",
+            "volume": "80"
+        },
+        {
+            "DOI": "10.1108/EJM-08-2015-0590",
+            "author": [
+                {
+                    "family": "Antonetti",
+                    "given": "Paolo"
+                }
+            ],
+            "container-title": "European Journal of Marketing",
+            "id": "antonetti2016",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        9,
+                        12
+                    ]
+                ]
+            },
+            "page": "1602-1628",
+            "title": "Consumer anger: A label in search of meaning",
+            "title-short": "Consumer anger",
+            "type": "article-journal",
+            "volume": "50"
+        },
+        {
+            "URL": "https://www.acrwebsite.org/volumes/8197/volumes/v25/NA-25/full",
+            "author": [
+                {
+                    "family": "Kozinets",
+                    "given": "Robert V."
+                },
+                {
+                    "family": "Handelman",
+                    "given": "Jay"
+                }
+            ],
+            "container-title": "ACR North American Advances",
+            "id": "kozinets1998",
+            "issued": {
+                "date-parts": [
+                    [
+                        1998
+                    ]
+                ]
+            },
+            "language": "en",
+            "title": "Ensouling Consumption: a Netnographic Exploration of the Meaning of Boycotting Behavior",
+            "title-short": "Ensouling Consumption",
+            "type": "article-journal",
+            "volume": "NA-25"
+        },
+        {
+            "DOI": "10.1086/506303",
+            "URL": "https://doi.org/10.1086/506303",
+            "author": [
+                {
+                    "family": "Ward",
+                    "given": "James C."
+                },
+                {
+                    "family": "Ostrom",
+                    "given": "Amy L."
+                }
+            ],
+            "container-title": "Journal of Consumer Research",
+            "id": "ward2006",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2006,
+                        9,
+                        1
+                    ]
+                ]
+            },
+            "page": "220-230",
+            "title": "Complaining to the masses: The role of protest framing in customer-created complaint web sites",
+            "title-short": "Complaining to the masses",
+            "type": "article-journal",
+            "volume": "33"
+        },
+        {
+            "DOI": "10.1509/jmr.13.0209",
+            "URL": "https://doi.org/10.1509/jmr.13.0209",
+            "author": [
+                {
+                    "family": "Anderson",
+                    "given": "Eric T."
+                },
+                {
+                    "family": "Simester",
+                    "given": "Duncan I."
+                }
+            ],
+            "container-title": "Journal of Marketing Research",
+            "id": "anderson2014",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014,
+                        6,
+                        1
+                    ]
+                ]
+            },
+            "language": "en",
+            "note": "Publisher: SAGE Publications Inc",
+            "page": "249-269",
+            "title": "Reviews without a Purchase: Low Ratings, Loyal Customers, and Deception",
+            "title-short": "Reviews without a Purchase",
+            "type": "article-journal",
+            "volume": "51"
+        },
+        {
+            "DOI": "10.1073/pnas.2024292118",
+            "URL": "https://www.pnas.org/content/118/26/e2024292118",
+            "author": [
+                {
+                    "family": "Rathje",
+                    "given": "Steve"
+                },
+                {
+                    "family": "Bavel",
+                    "given": "Jay J. Van"
+                },
+                {
+                    "dropping-particle": "van der",
+                    "family": "Linden",
+                    "given": "Sander"
+                }
+            ],
+            "container-title": "Proceedings of the National Academy of Sciences",
+            "id": "rathje2021",
+            "issue": "26",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        6,
+                        29
+                    ]
+                ]
+            },
+            "language": "en",
+            "note": "Publisher: National Academy of Sciences Section: Social Sciences PMID: 34162706",
+            "title": "Out-group animosity drives engagement on social media",
+            "type": "article-journal",
+            "volume": "118"
+        },
+        {
+            "DOI": "https://doi.org/10.1111/papa.12075",
+            "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1111/papa.12075",
+            "author": [
+                {
+                    "family": "Tosi",
+                    "given": "Justin"
+                },
+                {
+                    "family": "Warmke",
+                    "given": "Brandon"
+                }
+            ],
+            "container-title": "Philosophy & Public Affairs",
+            "id": "tosi2016",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "language": "en",
+            "note": "_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/papa.12075",
+            "page": "197-217",
+            "title": "Moral Grandstanding",
+            "type": "article-journal",
+            "volume": "44"
+        },
+        {
+            "DOI": "10.1126/sciadv.abe5641",
+            "URL": "https://advances.sciencemag.org/content/7/33/eabe5641",
+            "author": [
+                {
+                    "family": "Brady",
+                    "given": "William J."
+                },
+                {
+                    "family": "McLoughlin",
+                    "given": "Killian"
+                },
+                {
+                    "family": "Doan",
+                    "given": "Tuan N."
+                },
+                {
+                    "family": "Crockett",
+                    "given": "Molly J."
+                }
+            ],
+            "container-title": "Science Advances",
+            "id": "brady2021",
+            "issue": "33",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        8,
+                        1
+                    ]
+                ]
+            },
+            "language": "en",
+            "note": "Publisher: American Association for the Advancement of Science Section: Research Article PMID: 34389534",
+            "page": "eabe5641",
+            "title": "How social learning amplifies moral outrage expression in online social networks",
+            "type": "article-journal",
+            "volume": "7"
+        },
+        {
+            "DOI": "10.1037/a0030398",
+            "author": [
+                {
+                    "family": "Cheng",
+                    "given": "Joey"
+                },
+                {
+                    "family": "Tracy",
+                    "given": "Jessica"
+                },
+                {
+                    "family": "Foulsham",
+                    "given": "Tom"
+                },
+                {
+                    "family": "Kingstone",
+                    "given": "Alan"
+                },
+                {
+                    "family": "Henrich",
+                    "given": "Joseph"
+                }
+            ],
+            "container-title": "Journal of personality and social psychology",
+            "id": "cheng2012",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012,
+                        11,
+                        19
+                    ]
+                ]
+            },
+            "title": "Two ways to the top: Evidence that dominance and prestige are distinct yet viable avenues to social rank and influence",
+            "title-short": "Two ways to the top",
+            "type": "article-journal",
+            "volume": "104"
+        },
+        {
+            "DOI": "https://doi.org/10.1002/jcpy.1002",
+            "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jcpy.1002",
+            "author": [
+                {
+                    "family": "Rotman",
+                    "given": "Jeff D."
+                },
+                {
+                    "family": "Khamitov",
+                    "given": "Mansur"
+                },
+                {
+                    "family": "Connors",
+                    "given": "Scott"
+                }
+            ],
+            "container-title": "Journal of Consumer Psychology",
+            "id": "rotman2018",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018
+                    ]
+                ]
+            },
+            "language": "en",
+            "note": "_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/jcpy.1002",
+            "page": "353-361",
+            "title": "Lie, Cheat, and Steal: How Harmful Brands Motivate Consumers to Act Unethically",
+            "title-short": "Lie, Cheat, and Steal",
+            "type": "article-journal",
+            "volume": "28"
+        },
+        {
+            "DOI": "10.1007/s11747-009-0186-5",
+            "author": [
+                {
+                    "family": "Grégoire",
+                    "given": "Yany"
+                },
+                {
+                    "family": "Laufer",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Tripp",
+                    "given": "Thomas"
+                }
+            ],
+            "container-title": "Journal of the Academy of Marketing Science",
+            "id": "grégoire2010",
+            "issued": {
+                "date-parts": [
+                    [
+                        2010,
+                        12,
+                        1
+                    ]
+                ]
+            },
+            "page": "738-758",
+            "title": "A comprehensive model of customer direct and indirect revenge: Understanding the effects of perceived greed and customer power",
+            "title-short": "A comprehensive model of customer direct and indirect revenge",
+            "type": "article-journal",
+            "volume": "38"
+        },
+        {
+            "URL": "https://www.teenvogue.com/story/rebecca-black-bullying-friday",
+            "author": [
+                {
+                    "family": "Wang",
+                    "given": "Evelyn"
+                }
+            ],
+            "id": "wang2017",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        10,
+                        20
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "note": "Section: tags",
+            "title": "Rebecca black says people sent her death threats about \"friday\"",
+            "type": ""
+        }
+    ],
+    "project_biblios": []
+}

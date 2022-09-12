@@ -1,0 +1,259 @@
+---
+title: "Research Methods 2022"
+author: "Ethan Milne // Ivey Business School"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+format: 
+    revealjs:
+        theme: [default, ivey_theme.scss]
+        footer: "Research Methods: Webscraping"
+        logo: Images/PhD-Logo.jpg
+        self-contained: true
+bibliography: references.bib
+execute: 
+  cache: true
+---
+
+## Gameplan:
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(gt)
+library(gtsummary)
+library(tidyverse)
+library(kableExtra)
+```
+
+<br>
+
+### Why webscrape? {style="color: black"}
+
+<br>
+
+### Scraping with APIs {style="color: black"}
+
+<br>
+
+### Scraping without APIs {style="color: black"}
+
+::: footer
+Introduction
+:::
+
+# Why Webscrape?
+
+------------------------------------------------------------------------
+
+## What is Webscraping?
+
+::: footer
+Why Webscrape?
+:::
+
+# Scraping with APIs
+
+------------------------------------------------------------------------
+
+## What is an API?
+
+::: footer
+Scraping with APIs
+:::
+
+------------------------------------------------------------------------
+
+## APIs: Costs and Benefits
+
+::: footer
+Scraping with APIs
+:::
+
+# Twitter Study
+
+------------------------------------------------------------------------
+
+![](Images/bk_tweet_context.png){style="fig-align "}
+
+::: footer
+Twitter Study: Context
+:::
+
+------------------------------------------------------------------------
+
+![](Images/alt_diagram.png){fig-align="center"}
+
+::: footer
+Twitter Study: Methods
+:::
+
+------------------------------------------------------------------------
+
+[![](images/Screen%20Shot%202022-09-12%20at%2010.25.02%20AM.png){fig-align="center"}](https://github.com/cjbarrie/academictwitteR)
+
+::: footer
+Twitter Study: Methods
+:::
+
+------------------------------------------------------------------------
+
+##  {auto-animate="true"}
+
+<br>
+
+```{r}
+#| eval: false
+#| echo: true
+
+library(academictwitteR)
+
+bk_tweets <- get_all_tweets(
+  query = "@BurgerKingUK",
+  start_tweets = "2021-03-06T00:00:00Z",
+  end_tweets = "2021-03-13T00:00:00Z",
+  n = 10000000
+)
+```
+
+##  {auto-animate="true"}
+
+<br>
+
+```{r}
+#| eval: false
+#| echo: true
+
+library(academictwitteR)
+
+bk_tweets <- get_all_tweets(
+  query = "@BurgerKingUK",
+  start_tweets = "2021-03-06T00:00:00Z",
+  end_tweets = "2021-03-13T00:00:00Z",
+  n = 10000000
+)
+
+for (i in unique_authors) {
+  past_tweets[[i]] <- get_all_tweets(
+    users = unique_authors$username[start:end],
+    start_tweets = "2021-03-01T00:00:01.000Z",
+    end_tweets = "2021-03-08T00:00:01.000Z",
+    n = 1000000
+  )
+}
+```
+
+::: footer
+Twitter Study: Methods
+:::
+
+------------------------------------------------------------------------
+
+<br>
+
+![](images/Screen%20Shot%202022-09-11%20at%209.05.23%20PM.png)
+
+::: footer
+Twitter Study: Methods
+:::
+
+------------------------------------------------------------------------
+
+## Results
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+load(here::here("Tables/twitter_results_combined.rdata"))
+
+t3 |>
+  tab_style(
+    style = cell_fill(color = "yellow"),
+    locations = cells_body(rows = 4)
+  ) |>
+ tab_options(table.width = pct(100),
+ table.font.size = 25) |>
+  gt::as_raw_html()
+```
+
+::: footer
+Twitter Study: Results
+:::
+
+# Scraping Without APIs
+
+------------------------------------------------------------------------
+
+## Building scrapers is [*hard*]{.underline}
+
+<br>
+
+### [No prebuilt code]{style="color: black"}
+
+<br>
+
+### [Websites not designed for scraping]{style="color: black"}
+
+<br>
+
+### [Websites protected against scraping]{style="color: black"}
+
+::: footer
+Scraping without APIs
+:::
+
+------------------------------------------------------------------------
+
+## Building scrapers is [*rewarding*]{.underline}
+
+<br>
+
+### [You know your data inside and out]{style="color: black"}
+
+<br>
+
+### [Your data is unique]{style="color: black"}
+
+<br>
+
+### [Your scraper is a contribution]{style="color: black"}
+
+::: footer
+Scraping Without APIs
+:::
+
+------------------------------------------------------------------------
+
+[![](images/Screen%20Shot%202022-09-12%20at%2010.23.43%20AM.png){fig-align="center"}](https://journal.transformativeworks.org/index.php/twc/article/view/1733)
+
+::: footer
+Scraping Without APIs
+:::
+
+# Fanfiction Study
+
+------------------------------------------------------------------------
+
+<br>
+
+![](images/fanficdef.png)
+
+::: footer
+Fanfiction Study: Methods
+:::
+
+------------------------------------------------------------------------
+
+[![](images/Screen%20Shot%202022-09-12%20at%2010.26.10%20AM.png){fig-align="center"}](https://github.com/SEthanMilne/FanficReadeR/)
+
+::: footer
+Fanfiction Study: Methods
+:::
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+# References

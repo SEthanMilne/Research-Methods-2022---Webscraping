@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+// fonts
+$font-family-sans-serif: 'Lato', sans-serif;
+$font-family-monospace: 'JetBrains Mono', monospace;
+
+
+// colors
+$selection-bg: #034638;
+$body-bg: #fff;
+$body-color: #000;
+$link-color: #034638;
+$presentation-heading-color: #034638;
+
+
+/*-- scss:rules --*/
+
+.reveal .slide blockquote {
+  border-left: 3px solid $text-muted;
+  padding-left: 0.5em;
+}
