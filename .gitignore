@@ -10,3 +10,4 @@ RM2022_cache/revealjs/.DS_Store
 Tables/twitter_results.rdata
 Tables/twitter_results_combined.rdata
 Tables/twitter_results_without.rdata
+.Rproj.user
