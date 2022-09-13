@@ -48,6 +48,8 @@ Introduction
 
 ## What is Webscraping?
 
+![](images/1*JvlPRFFYl1qqtET4Syn8lQ.png)
+
 ::: footer
 Why Webscrape?
 :::
@@ -58,13 +60,33 @@ Why Webscrape?
 
 ## What is an API?
 
+<br>
+
+[**A**]{style="color: red"}pplication [**P**]{style="color: red"}rogram [**I**]{style="color: red"}nterface
+
+![](images/1*re837GMp63hzDnB8tEiZKA.png)
+
 ::: footer
 Scraping with APIs
 :::
 
 ------------------------------------------------------------------------
 
-## APIs: Costs and Benefits
+## APIs: Pros and Cons
+
+<br>
+
++---------------------------+--------------------------------+
+| ::: {style="color: blue"} | ::: {style="color: red"}       |
+| **Pros**                  | **Cons**                       |
+| :::                       | :::                            |
++---------------------------+--------------------------------+
+| Easy to use               | Not available for every site   |
++---------------------------+--------------------------------+
+| Well-documented           | No control over data available |
++---------------------------+--------------------------------+
+| Limited liability         | Usage restrictions             |
++---------------------------+--------------------------------+
 
 ::: footer
 Scraping with APIs
@@ -87,6 +109,10 @@ Twitter Study: Context
 ::: footer
 Twitter Study: Methods
 :::
+
+------------------------------------------------------------------------
+
+![](images/Screen%20Shot%202022-09-12%20at%202.58.00%20PM.png){fig-align="center"}
 
 ------------------------------------------------------------------------
 
@@ -115,6 +141,10 @@ bk_tweets <- get_all_tweets(
   n = 10000000
 )
 ```
+
+::: footer
+Twitter Study: Methods
+:::
 
 ##  {auto-animate="true"}
 
@@ -253,6 +283,174 @@ Fanfiction Study: Methods
 :::
 
 ------------------------------------------------------------------------
+
+![](images/Screen%20Shot%202022-09-12%20at%202.13.26%20PM.png){fig-align="center"}
+
+::: footer
+Fanfiction Study: Methods
+:::
+
+------------------------------------------------------------------------
+
+![](images/Screen%20Shot%202022-09-12%20at%202.15.32%20PM.png){fig-align="center"}
+
+::: footer
+Fanfiction Study: Methods
+:::
+
+------------------------------------------------------------------------
+
+![](images/Screen%20Shot%202022-09-12%20at%202.16.27%20PM.png){fig-align="center"}
+
+::: footer
+Fanfiction Study: Methods
+:::
+
+------------------------------------------------------------------------
+
+##  {auto-animate="true"}
+
+### Get HTML pages
+
+<br>
+
+```{r}
+#| message: false
+#| warning: false
+#| echo: true
+library(httr)
+library(rvest)
+
+get_html <- function(input) {
+  GET(
+    input, #insert URL to scrape
+    user_agent(
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
+    )
+  ) |>
+    read_html()
+}
+```
+
+::: footer
+Fanfiction Study: Scraper
+:::
+
+##  {auto-animate="true"}
+
+### Get HTML
+
+<br>
+
+```{r}
+#| echo: true
+get_html(input = "https://archiveofourown.org/tags/Fantastic%20Beasts%20and%20Where%20to%20Find%20Them%20(Movies)/works")
+```
+
+::: footer
+Fanfiction Study: Scraper
+:::
+
+##  {auto-animate="true"}
+
+### Read HTML
+
+<br>
+
+```{r}
+#| echo: true
+get_html(input = "https://archiveofourown.org/tags/Fantastic%20Beasts%20and%20Where%20to%20Find%20Them%20(Movies)/works") |>
+  html_text2()
+
+```
+
+::: footer
+Fanfiction Study: Scraper
+:::
+
+##  {auto-animate="true"}
+
+### Build Function
+
+<br>
+
+```{r}
+#| echo: true
+get_pageworkIDs <- function(input){
+  input |>
+    html_elements(css = "ol.work.index.group") |>
+    as.character() |>
+    str_match_all("<li id=(.*?) class=") |>
+    data.frame() |>
+    select("X2") |>
+    mutate(X2 = gsub('[[:punct:]]', "", X2),
+           X2 = gsub("work", "", X2)) |>
+    rename(id = X2) |>
+    mutate(id = as.numeric(id),
+           id = paste0("https://archiveofourown.org/works/", id))
+}
+```
+
+::: footer
+Fanfiction Study: Scraper
+:::
+
+##  {auto-animate="true"}
+
+### Extract Information
+
+<br>
+
+```{r}
+#| echo: true
+input <- get_html(input = "https://archiveofourown.org/tags/Fantastic%20Beasts%20and%20Where%20to%20Find%20Them%20(Movies)/works")
+
+get_pageworkIDs(input)
+```
+
+::: footer
+Fanfiction Study: Scraper
+:::
+
+------------------------------------------------------------------------
+
+![](images/Screen%20Shot%202022-09-12%20at%202.40.34%20PM.png)
+
+::: footer
+Fanfiction Study: Scraper
+:::
+
+------------------------------------------------------------------------
+
+<br>
+
+```{r}
+#| echo: true
+
+GetFandomIndex <- function(fandom, pages, start = 1) {
+  ### Get number of pages
+  indexURL <- get_indexURL(fandom)
+  index <- get_html(indexURL)
+  indexpages <- get_indexpages(index)
+  pagecount <- min(pages, indexpages)
+  index_ids <- as.data.frame(matrix(ncol = 1,
+                                    nrow = 0))
+  ### Scrape each page, store in dataframe
+  for (i in start:pagecount) {
+    pageURL <- get_indexURLpage(indexURL, i)
+    page_html <- get_html(pageURL)
+    id_list <- get_pageworkIDs(page_html)
+    index_ids <- rbind(index_ids, id_list)
+  }
+  ### Output dataframe with all fanfictions
+  index_ids
+}
+
+```
+
+::: footer
+Fanfiction Study: Scraper
+:::
 
 ------------------------------------------------------------------------
 
