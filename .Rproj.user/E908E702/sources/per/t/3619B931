@@ -3,7 +3,7 @@
     "path": "~/Documents/GitHub/Lectures/Research Methods 2022/RM2022.qmd",
     "project_path": "RM2022.qmd",
     "type": "quarto_markdown",
-    "hash": "2917844302",
+    "hash": "2573683880",
     "contents": "",
     "dirty": false,
     "created": 1662915232075.0,
@@ -12,8 +12,8 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "477,0",
-        "scrollLine": "468",
+        "cursorPosition": "32,41",
+        "scrollLine": "26",
         "rmdVisualCollapsedChunks": "",
         "rmdVisualMode": "false",
         "rmdVisualWrapConfigured": "true",
@@ -21,11 +21,11 @@
         "rmdVisualModeLocation": "4950:17084"
     },
     "folds": "",
-    "lastKnownWriteTime": 1663124518,
+    "lastKnownWriteTime": 1663126633,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1663124518928,
+    "last_content_update": 1663126633232,
     "read_only": false,
     "read_only_alternatives": []
 }
