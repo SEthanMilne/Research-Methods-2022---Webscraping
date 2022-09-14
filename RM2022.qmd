@@ -454,4 +454,26 @@ Fanfiction Study: Scraper
 
 ------------------------------------------------------------------------
 
+## Thank you!
+
+<br> <br>
+
+::: columns
+::: column
+{{< fa brands twitter size=xl >}} SEthanMilne
+
+<br> <br>
+
+{{< fa envelope size=xl >}} emilne.phd@ivey.ca
+:::
+
+::: column
+{{< fa brands github size=xl >}} SEthanMilne
+
+<br> <br>
+
+{{< ai google-scholar size=2xl >}} Ethan Milne
+:::
+:::
+
 # References
