@@ -56,6 +56,16 @@ Introduction
 Why Webscrape?
 :::
 
+------------------------------------------------------------------------
+
+## The Webscraping Iceberg
+
+![](images/Screen%20Shot%202022-10-06%20at%202.10.57%20PM.png){fig-align="center"}
+
+::: footer
+Why Webscrape?
+:::
+
 # Scraping with APIs
 
 ------------------------------------------------------------------------
@@ -264,7 +274,54 @@ Scraping Without APIs
 Scraping Without APIs
 :::
 
-# Fanfiction Study
+# Structured: Wikipedia
+
+------------------------------------------------------------------------
+
+![](images/Screen%20Shot%202022-10-06%20at%202.14.49%20PM.png){fig-align="center"}
+
+::: footer
+Structured Webscraping
+:::
+
+------------------------------------------------------------------------
+
+![](images/Screen%20Shot%202022-10-06%20at%202.15.53%20PM.png){fig-align="center"}
+
+::: footer
+Structured Webscraping
+:::
+
+------------------------------------------------------------------------
+
+##  {auto-animate="true"}
+
+<br>
+
+```{r}
+#| echo: true
+#| eval: false
+library(htmltab)
+```
+
+##  {auto-animate="true"}
+
+<br>
+
+```{r}
+#| echo: true
+library(htmltab)
+
+htmltab("https://en.wikipedia.org/wiki/List_of_Game_of_Thrones_episodes", 
+        2) |>
+  select(c(1,2,7))
+```
+
+::: footer
+Structured Webscraping: Example
+:::
+
+# Semi-Structured: Fanfiction
 
 ------------------------------------------------------------------------
 
@@ -453,6 +510,20 @@ GetFandomIndex <- function(fandom, pages, start = 1) {
 ::: footer
 Fanfiction Study: Scraper
 :::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="40%"}
+![](images/Screen%20Shot%202022-10-06%20at%202.36.22%20PM.png)
+:::
+
+::: {.column width="60%"}
+![](images/Screen%20Shot%202022-10-06%20at%202.37.36%20PM-01.png)
+:::
+:::
+
+# Conclusion
 
 ------------------------------------------------------------------------
 
