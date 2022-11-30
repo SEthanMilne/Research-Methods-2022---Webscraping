@@ -26,6 +26,7 @@ library(gt)
 library(gtsummary)
 library(tidyverse)
 library(kableExtra)
+library(ggpubr)
 ```
 
 <br>
@@ -51,6 +52,38 @@ Introduction
 ## What is Webscraping?
 
 ![](images/1*JvlPRFFYl1qqtET4Syn8lQ.png)
+
+::: footer
+Why Webscrape?
+:::
+
+------------------------------------------------------------------------
+
+## Why Webscrape?
+
+::: footer
+Why Webscrape?
+:::
+
+------------------------------------------------------------------------
+
+## Why Webscrape?
+
+<br>
+
+### [New Phenomena]{style="color: black"}
+
+<br>
+
+### [Ecological Value]{style="color: black"}
+
+<br>
+
+### [Methods Advancement]{style="color: black"}
+
+<br>
+
+### [Improving Measurement]{style="color: black"}
 
 ::: footer
 Why Webscrape?
@@ -104,6 +137,34 @@ Scraping with APIs
 Scraping with APIs
 :::
 
+------------------------------------------------------------------------
+
+## Brady (2021)
+
+<br>
+
+### 1. So what?
+
+::: footer
+Brady (2021) discussion
+:::
+
+------------------------------------------------------------------------
+
+## Brady (2021)
+
+<br>
+
+### 1. So what?
+
+<br>
+
+### 2. Why scrape?
+
+::: footer
+Brady (2021) discussion
+:::
+
 # Twitter Study
 
 ------------------------------------------------------------------------
@@ -125,6 +186,10 @@ Twitter Study: Methods
 ------------------------------------------------------------------------
 
 ![](images/Screen%20Shot%202022-09-12%20at%202.58.00%20PM.png){fig-align="center"}
+
+::: footer
+Twitter Study: Methods
+:::
 
 ------------------------------------------------------------------------
 
@@ -325,6 +390,14 @@ Structured Webscraping: Example
 
 ------------------------------------------------------------------------
 
+## Fanfiction
+
+<br>
+
+### Why Scrape? {style="color: black"}
+
+------------------------------------------------------------------------
+
 <br>
 
 ![](images/fanficdef.png)
@@ -521,6 +594,83 @@ Fanfiction Study: Scraper
 ::: {.column width="60%"}
 ![](images/Screen%20Shot%202022-10-06%20at%202.37.36%20PM-01.png)
 :::
+:::
+
+::: footer
+Fanfiction Study: Scraper
+:::
+
+------------------------------------------------------------------------
+
+![](images/Screenshot%202022-11-30%20at%2010.42.57%20AM.png){fig-align="center"}
+
+::: footer
+Fanfiction Study: Example Work
+:::
+
+------------------------------------------------------------------------
+
+![](images/Screenshot%202022-11-30%20at%2010.43.06%20AM.png){fig-align="center"}
+
+::: footer
+Fanfiction Study: Example Work
+:::
+
+------------------------------------------------------------------------
+
+![](images/Screenshot%202022-11-30%20at%2010.43.21%20AM.png){fig-align="center"}
+
+::: footer
+Fanfiction Study: Example Work
+:::
+
+------------------------------------------------------------------------
+
+![](images/Screenshot%202022-11-30%20at%2010.46.07%20AM.png){fig-align="center"}
+
+::: footer
+Fanfiction Study: Example Work
+:::
+
+------------------------------------------------------------------------
+
+## Costs ~~and Benefits~~
+
+```{r}
+time <- 1:10
+tibble(
+  time
+) |>
+  mutate(
+    sanity = 1/as.numeric(time)
+  ) |>
+  ggplot(
+    aes(x = time, y = sanity)) +
+      geom_smooth() +
+  theme_pubr() +
+  labs(
+    y = "Happiness",
+    x = "Time"
+  ) +
+  theme(
+    axis.text = element_blank(),
+    axis.ticks = element_blank()
+  )
+  
+```
+
+::: footer
+Fanfiction Study: Psychological Impact
+:::
+
+------------------------------------------------------------------------
+
+## Fanfiction model
+
+![](images/Screenshot%202022-11-30%20at%2010.40.27%20AM.png)
+
+::: footer
+Fanfiction Study: Model
 :::
 
 # Conclusion
